@@ -17,7 +17,7 @@ def main():
     twitterData = []
 
     #since number of requests are limited per quarter hour, we loop our requests and add a waiting time for 429 response code
-    for i in range(1, int(currDate[0])):
+    for i in range(1, int(currDate[0])+1):
         for j in range(0, 24):
             for k in range(0, 60, 5):
                 dateFormatter = str(i)

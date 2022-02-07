@@ -1,0 +1,16 @@
+What are the risks involved in building such a pipeline?
+Ans- Since twitter api is an open source api, we should constantly monitor it for any deprecations that might lead to problems in our runs. 
+Scraping the data from outside network requires a proper security network which should be enabled to avoid any security leaks or penetrations. The data should also be sanitized if needed.
+Load should be monitored continuosly to check the cluster.
+
+How would you roll out the pipeline going from proof-of-concept to a production-ready solution?
+Ans- 
+
+What would a production-ready solution entail that a POC wouldn't?
+Ans- 
+
+What is the level of effort required to deliver each phase of the solution?
+Ans- 
+
+What is your estimated timeline for delivery for a production-ready solution?
+Ans- 

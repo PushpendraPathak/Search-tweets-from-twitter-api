@@ -15,6 +15,7 @@ The extracted tweets were then filtered based on twitter's context annotations k
 Since I could only request 180 times per 15 mins, a sleep timer was set everytime I received a 429 error code (which means too many requests).
 
 A database and table was created in the MySQL with the following query which will hold all of our data after insertion.
+
 create table twitter_data
 (id varchar(255) primary key,
 tweet TEXT,
@@ -30,5 +31,6 @@ The filtered data was then ingested into the database.
 Once the ingestion was complete, conversion of the database records into a csv file was done for easier access and readability.
 
 Output- 
-Count of all tweets consumed= 61378
-Count of music tweets consumed= 48424
+Count of all tweets consumed= 61325
+
+Count of music tweets consumed= 48383

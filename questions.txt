@@ -40,4 +40,4 @@ Ans- The estimated timeline for delivery would be as follows-
 -Production landscape validation and testing- 2 weeks
 -Production landscape user acceptance testing- 2 weeks
 -Final enhancements from uat- 2 weeks
-
+Note- This timeline estimation are based on my own current understanding of the project. However there would definitely be more requirements and business needs and so a thorough discussion would be required to access the needs and update the timeline accordingly.

@@ -31,6 +31,6 @@ The filtered data was then ingested into the database.
 Once the ingestion was complete, conversion of the database records into a csv file was done for easier access and readability.
 
 Output- 
-Count of all tweets consumed= 61378
+Count of all tweets consumed= 61325
 
-Count of music tweets consumed= 48424
+Count of music tweets consumed= 48383

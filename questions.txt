@@ -7,7 +7,12 @@ How would you roll out the pipeline going from proof-of-concept to a production-
 Ans- 
 
 What would a production-ready solution entail that a POC wouldn't?
-Ans- 
+Ans- There would be quite a few things that a production-ready solution will entail that a POC wouldn't like-
+The security aspect would be a big factor so that no company data or access is compromised.
+There would be other security features added for PR pul, code merge etc.
+The production ready solution will entail autoscale cluster with higher configurations to deal with the massive data processing.
+An advanced monitoring layer would be added on top to keep everything in control and monitor the changes that might affect the processing.
+An AI landscape based UI would be provided to take a look at the output and filter them based on the columns or other factors.
 
 What is the level of effort required to deliver each phase of the solution?
 Ans- 
